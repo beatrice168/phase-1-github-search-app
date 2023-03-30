@@ -10,4 +10,59 @@
 
 ul {
   list-style: none;
+  
+}
+.submit-btn {
+	position: relative;
+	background-color: #1cb81c;
+	border: none;
+	height: 1.5rem;
+	width: max-content;
+	color: whitesmoke;
+	justify-self: center;
+ }
+ 
+ .submit-btn:hover {
+	background-color: whitesmoke;
+	border: #1d773b solid 1px;
+	color: #1d773b;
+	cursor: pointer;
+ }
+
+.user-card {
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	border-bottom: 1px solid #eee;
+}
+
+.user-card h2, .user-card a {
+	margin: 0;
+}
+
+.fs11 {
+	font-size: 11px;
+}
+
+.fs14 {
+	font-size: 14px;
+}
+
+.user-card img {
+	height: 6rem;
+	width: auto;
+}
+
+body {
+	font-family: Nunito;
+}
+
+.margin-none {
+	margin: 0;;
+}
+
+.repo-card {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-bottom: 1px solid #eee;
 }
